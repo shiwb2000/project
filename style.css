@@ -1,0 +1,121 @@
+body {
+    background: #6e6969;
+    background: radial-gradient(circle, rgb(52, 52, 52) 0%, rgba(0, 0, 0, 1) 65%);
+    height: 1000px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.city-name {
+    text-align: center;
+}
+.city-name input {
+    border-radius: 15px;
+    background-color: #8181813b;
+    width: 250px;
+    height: 35px;
+    color: white;
+    border: none;
+    margin-top: 8px;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 30px;
+    outline: none;
+}
+button{
+    background-color: transparent;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.data-entry {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/image-and-icon/pngtree-cloudy-rainy-weather-icon-png-image_6138021.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.data-entry h1 {
+    font-size: 80px;
+    margin-left: 100px;
+}
+
+.data-status {
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.other-data {
+    width: 300px;
+    display: flex;
+    margin-left: 55px;
+    justify-content: space-around;
+}
+
+.table {
+    width: 350px;
+    border: 1px solid #333;
+    border-radius: 25px;
+    background-color: #33333337;
+    margin-right: 25px;
+}
+
+.table li {
+    font-size: 20px;
+}
+
+.table li p {
+    font-size: 12px;
+}
+
+.table ul .border {
+    font-size: 20px;
+    border-left: 3px solid yellow;
+    border-radius: 3px 0 0 3px;
+    padding-left: 5px;
+
+}
+
+.hourly-data {
+    margin-top: 100px;
+}
+
+.hourly-data ul {
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hourly-data li span {
+    margin-bottom: 15px;
+}
+
+.Data li span {
+    display: inline-block;
+    border-bottom: 2px solid yellow;
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Data :nth-child(even) {
+    margin-top: 40px;
+}
+
+#weatherInfo {
+    color: white;
+    font-size: 18px;
+}
+
