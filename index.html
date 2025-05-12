@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>the weather</title>
+</head>
+
+<body>
+    <section class="city-name">
+        <input type="text" id="city" placeholder="city name...">
+        <button onclick="getWeather()"> Get Data</button>
+        <button onclick="clearWeather()">Remove Data</button>
+
+        <p id="weatherInfo"></p>
+
+        <p id="weatherInfo"></p>
+    </section>
+    <main class="data-entry">
+        <div>
+            <h1>16°c</h1>
+            <p class="data-status">Storm With Rain</p>
+            <div class="other-data">
+                <span>Wind
+                    <p class="data-wind">2.4km/h</p>
+                </span>
+                <span>Humidity
+                    <p class="data-wind">70%/h</p>
+                </span>
+
+            </div>
+        </div>
+        <div class="table">
+            <ul>
+                <li>
+                    <p class="border">Friday</p>
+                    <p>cloudy with rain</p>
+                    <span>20°c</span>
+                </li>
+                <li>Saturday
+                    <p>sunny</p>
+                    <span>20°c</span>
+                </li>
+                <li>Sunday
+                    <p>Rain</p>
+                    <span>20°c</span>
+                </li>
+                <li>Monday
+                    <p>Rain and snow</p>
+                    <span>20°c</span>
+                </li>
+                <li>Tuesday
+                    <p>Snow</p>
+                    <span>20°c</span>
+
+                </li>
+                <li>Wednesday
+                    <p>cloudy with rain</p>
+                    <span>20°c</span>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <section class="hourly-data">
+        <ul class="Data">
+            <li><span>08:00</span> <br> 20°c</li>
+            <li><span>09:00</span> <br> 20°c</li>
+            <li><span>10:00</span> <br> 20°c</li>
+            <li><span>11:00</span><br> 20°c</li>
+            <li><span>12:00</span><br> 20°c</li>
+            <li><span>13:00</span><br> 20°c</li>
+            <li><span>14:00</span> <br> 20°c</li>
+            <li><span>15:00</span> <br> 20°c</li>
+        </ul>
+    </section>
+    <script src="weathetApi.js"></script>
+</body>
+
+</html>
