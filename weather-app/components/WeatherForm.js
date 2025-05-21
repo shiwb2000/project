@@ -1,6 +1,6 @@
 // pages/index.js
 import { useState } from 'react';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Weather.module.css';
 
 export default function Home() {
   const [weatherInfo, setWeatherInfo] = useState('');
